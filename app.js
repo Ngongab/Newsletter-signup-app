@@ -41,7 +41,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "ngonga1:0c018b8a3f40446c8fc430bca62ea799-us10"
+        auth: "ngonga1:a719182f5265b6055de8090ce851c924-us10"
     }
 
    const request =  https.request(url, options, function (response) {
@@ -73,9 +73,5 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Server is running on port 3000")
 });
 
-// API Key
-// 0c018b8a3f40446c8fc430bca62ea799-us10
 
-// List Id
-// 7cc59e12e2
 
