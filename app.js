@@ -48,7 +48,7 @@ app.post("/", function(req, res) {
 
                 
         if (response.statusCode === 200) {
-            res.sendFile(__dirname + "/Success.html")
+            res.sendFile(__dirname + "/success.html")
         } else {
             res.sendFile(__dirname + "/failure.html")
             
@@ -73,5 +73,6 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Server is running on port 3000")
 });
 
+// https://agile-harbor-03539.herokuapp.com/
 
 
